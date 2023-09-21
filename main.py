@@ -15,8 +15,5 @@ if __name__ == '__main__':
     # Create an instance of the presenter
     presenter = CounterPresenter(view, model)
 
-    # Set the presenter in the view
-    view.presenter = presenter
-
     # Run the Kivy app
     runTouchApp(view)
